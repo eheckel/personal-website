@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>
+        Emily's Portfolio
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <a href="index.html"><img class="icon" src="icon.jpg"/></a>
+        </div>
+        <div class="links">
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="items">
+            <div class="index_container">
+                <h1 class="header-text hey">
+                    Hi there!
+                </h1>
+                <p class="intro text">
+                    I’m Emily, a computer science & psychology student at the University of North Carolina at Chapel
+                    Hill graduating May 2020.
+                    <br><br>
+                    <span id="typed"></span>
+                </p>
+            </div>
+            <div>
+                <img class="image" src="me.png">
+            </div>
+        </div>
+        <div class="footer text">
+                © Emily Heckel 2019
+            </div>
+    </div>
+    
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+    var typed = new Typed('#typed', {
+        strings: [
+            'I’m here to introduce myself.', 
+            'I’m here to make the web friendlier for all.', 
+            'I’m here to learn something new every day.', 
+            'I’m here to make your coding dreams come true.'
+        ],
+        typeSpeed: 40,
+        backSpeed: 20
+      });
+</script>

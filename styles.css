@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    font-family: Avenir;
+    text-decoration: none;
+    color: #CF768E;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+}
+
+.links {
+    text-align: right;
+    display: flex;
+    margin-left: 60vw;
+    margin-right: 40px;
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 200;
+    justify-content: space-around;
+    width: 5000px;
+}
+
+.header-text {
+    font-family: Gurmukhi MN;
+    font-weight: normal;
+    color: #3A3C48;
+}
+
+.box {
+    position: fixed;
+    height: 50vh;
+    width: 100vw;
+    top: 26vh;
+    background-color: #EFECEA;
+}
+
+.hey {
+    font-size: 45px;
+}
+
+.text {
+    font-family: Devanagari Sangam MN;
+    font-size: 18px;
+    color: #746759;
+}
+
+.text-container {
+    margin-left: 20vh;
+    margin-top: 25vh;
+}
+
+.intro {
+    margin-top: 10px;
+    margin-right: 45px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.index_container {
+    width: 50vw;
+}
+
+.image {
+    height: 175px;
+    width: 175px;
+    margin-top: 10px;
+}
+
+.footer {
+    font-size: 12px;
+    position:fixed;
+   text-align: center;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   padding-top: 8px;
+   background-color: rgb(206, 137, 155);
+   color: white;
+}
