@@ -49,8 +49,10 @@ a {
     position: fixed;
     height: 50vh;
     width: 100vw;
-    top: 26vh;
+    overflow: auto;
+    top: 25vh;
     background-color: #EFECEA;
+    display: inline-block;
 }
 
 .hey {
@@ -66,6 +68,7 @@ a {
 .text-container {
     margin-left: 18vw;
     margin-top: 4%;
+    margin-right: 50px;
 }
 
 .intro {
@@ -100,4 +103,77 @@ a {
    padding-top: 8px;
    background-color: rgb(206, 137, 155);
    color: white;
+}
+
+.computing-pic {
+    /* height: 60%; */
+    width: 350px;
+    text-align: center;
+}
+
+.image-wrap {
+    text-align: center;
+}
+
+.white {
+    height: 90%;
+    /* background-color: white; */
+}
+
+.bottom-item {
+    margin-bottom: 200px;
+}
+
+.ul-contact {
+    display: inline-block;
+    text-align: left;
+}
+
+@media only screen and (max-width: 960px) {
+    .box {
+        background-color: white;
+        height: 95%;
+        width: 100%;
+        text-align: center;
+        top: 20vh;
+        overflow-y: scroll;
+    }
+
+    .items {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .index_container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro {
+        width: 80%;
+        display: inline-block;
+        margin: 5vh auto;
+        overflow-y: scroll;
+    }
+
+    .links {
+        width: 100vw;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .image {
+        margin: 0 0 10px 0;
+    }
+    
+    .text-container {
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+        width: 90%;
+        height: auto;
+    }
+    .bottom-item {
+        margin-bottom: 200px;
+    
+    }
 }
