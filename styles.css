@@ -141,12 +141,15 @@ a {
 
     .items {
         text-align: center;
+        overflow-y: scroll;
         flex-direction: column-reverse;
     }
 
     .index_container {
         width: 100%;
         margin: 0 auto;
+        overflow-y: scroll;
+        margin-bottom: 150px;
     }
 
     .intro {
