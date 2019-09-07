@@ -9,8 +9,13 @@ body {
     background-color: white;
 }
 
-a {
+.link {
     font-family: Avenir;
+    text-decoration: none;
+    color: #CF768E;
+}
+
+.inline-link {
     text-decoration: none;
     color: #CF768E;
 }
@@ -47,12 +52,25 @@ a {
 
 .box {
     position: fixed;
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
-    overflow: auto;
-    top: 25vh;
+    overflow-y: scroll;
+    top: 20vh;
     background-color: #EFECEA;
     display: inline-block;
+}
+
+.project-container {
+    padding-bottom: 500px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-description {
+    padding-left: 20px;
 }
 
 .hey {
@@ -116,7 +134,7 @@ a {
 }
 
 .white {
-    height: 90%;
+    height: 95vh;
     /* background-color: white; */
 }
 
@@ -141,7 +159,6 @@ a {
 
     .items {
         text-align: center;
-        overflow-y: scroll;
         flex-direction: column-reverse;
     }
 
