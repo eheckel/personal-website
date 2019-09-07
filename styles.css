@@ -148,6 +148,15 @@ body {
 }
 
 @media only screen and (max-width: 960px) {
+    .project-container {
+        padding-bottom: 200px;
+    }
+    
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+
     .box {
         background-color: white;
         height: 95%;
