@@ -30,6 +30,8 @@ body {
     width: 100px;
     height: 100px;
     margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .links {
